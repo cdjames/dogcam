@@ -1,0 +1,6 @@
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+@reboot sudo libcamerify_motion # start cam on reboot
+0 7 * * * sudo libcamerify_motion # start cam at 7 am every day
+0 23 * * * sudo kill_libcamerify # stop cam at 11 pm every night

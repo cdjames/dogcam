@@ -1,0 +1,6 @@
+#!/bin/sh
+
+pgrep motion || sudo libcamerify motion
+sudo tailscale serve --bg 8081
+
+exit 0

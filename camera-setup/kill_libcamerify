@@ -1,0 +1,6 @@
+#!/bin/sh
+
+pgrep motion && sudo kill -9 $(pgrep motion)
+tailscale serve status | grep -c 'No serve config' || sudo tailscale serve 8081 off
+
+exit 0
