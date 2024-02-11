@@ -1,8 +1,10 @@
-# Instructions to install dogcam on raspberry pi
+# Instructions to install dogcam on Raspberry PI
 
 ## Camera
 Freenove 8MP Camera for Raspberry Pi
+
 [Amazon link](https://www.amazon.com/gp/product/B0BZYPBS17)
+
 [Tutorial link](https://freenove.com/tutorial) (device FNK0056)
 
 Follow the tutorial to connect the camera to the Raspberry PI.

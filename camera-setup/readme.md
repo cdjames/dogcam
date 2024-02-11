@@ -1,5 +1,7 @@
 # Motion capture setup
 
+[Pre-requisite steps](../pi-prep/readme.md)
+
 ## Setup
 Follow the instructions to set up the motion capture software on the Raspberry PI.
 
